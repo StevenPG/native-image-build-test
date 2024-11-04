@@ -12,3 +12,15 @@ JDK tests can be run using `./gradlew clean compileJava` and `./gradlew clean bo
 | M1 Pro xxxxx     |                  |                  |                     |                     |
 | M3 Pro 12c 36GB  | 650ms            | 1.49s            | 82s                 | 20.5ms              |
 | M3 Max xxxxx     |                  |                  |                     |                     |
+
+Secondary Test - pull Jenkins repo from https://github.com/jenkinsci/jenkins/tree/stable-2.479 and switch to the
+`stable-2.479` branch
+
+perform `mvn clean install`
+
+| System           | mvn clean install |
+|------------------|-------------------|
+| 2019 Macbook Pro |                   |
+| M1 Pro xxxxx     |                   |
+| M3 Pro 12c 36GB  |                   |
+| M3 Max xxxxx     |                   |
