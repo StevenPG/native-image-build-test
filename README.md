@@ -17,7 +17,7 @@ The compileJava is the total time and the bootRun is the startup time, e.g:
 
 | System           | JDK Compile Time | JDK Startup Time | Native Compile Time | Native Startup Time |
 |------------------|------------------|------------------|---------------------|---------------------|
-| 2019 Macbook Pro | 2000ms           | 3.786s           |                     |                     |
+| 2019 Macbook Pro | 2000ms           | 3.786s           | 230s                | 413ms               |
 | M1 Pro  8c 32GB  | 1000ms           | 2.071s           | 140s                | 207ms               |
 | M2 Air  xxxxxxx  |                  |                  |                     |                     |
 | M2 Pro  xxxxxxx  |                  |                  |                     |                     |
