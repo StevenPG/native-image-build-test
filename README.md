@@ -22,4 +22,4 @@ The compileJava is the total time and the bootRun is the startup time, e.g:
 | M2 Air  xxxxxxx  |                  |                  |                     |                     |
 | M2 Pro  xxxxxxx  |                  |                  |                     |                     |
 | M3 Pro 12c 36GB  | 650ms            | 1.490s           | 79s                 | 20.5ms              |
-| M3 Max xxxxx     |                  |                  |                     |                     |
+| M3 Max 16c 48GB  | 620ms            | 1.429s           | 66s                 | 20.4ms              |
