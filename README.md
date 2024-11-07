@@ -15,11 +15,11 @@ The compileJava is the total time and the bootRun is the startup time, e.g:
 
 `BUILD SUCCESSFUL in 654ms` and for bootRun, `Started DemoApplication in 1.387 seconds`
 
-| System           | JDK Compile Time | JDK Startup Time | Native Compile Time | Native Startup Time |
-|------------------|------------------|------------------|---------------------|---------------------|
-| 2019 Macbook Pro | 2000ms           | 3.786s           | 230s                | 413ms               |
-| M1 Pro  8c 32GB  | 1000ms           | 2.071s           | 140s                | 207ms               |
-| M2 Air  xxxxxxx  |                  |                  |                     |                     |
-| M2 Pro  xxxxxxx  |                  |                  |                     |                     |
-| M3 Pro 12c 36GB  | 650ms            | 1.490s           | 79s                 | 20.5ms              |
-| M3 Max 16c 48GB  | 620ms            | 1.429s           | 66s                 | 20.4ms              |
+| System           | JDK Compile Time | JDK Startup Time | Native Compile Time | Native Startup Time |  Spec Notes  |
+|------------------|------------------|------------------|---------------------|---------------------| -------------|
+| 2019 Macbook Pro | 2000ms           | 3.786s           | 230s                | 413ms               | 2.6GHz 6c i7 |
+| M1 Pro           | 1000ms           | 2.071s           | 140s                | 207ms               | 8c 32GB      |
+| M2 Air  xxxxxxx  |                  |                  |                     |                     |              |
+| M2 Pro  xxxxxxx  |                  |                  |                     |                     |              |
+| M3 Pro           | 650ms            | 1.490s           | 79s                 | 20.5ms              | 12c 36GB     |
+| M3 Max           | 620ms            | 1.429s           | 66s                 | 20.4ms              | 16c 48GB     |
