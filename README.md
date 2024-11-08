@@ -20,11 +20,11 @@ The compileJava is the total time and the bootRun is the startup time, e.g:
 
 | System           | JDK Compile Time | JDK Startup Time | Native Compile Time | Native Startup Time | Spec Notes                  | OS                  |
 |------------------|------------------|------------------|---------------------|---------------------|-----------------------------|---------------------|
-| 2015 Macbook Pro | 3000ms           |                  | 436s (7m 16s)       | 320ms               |                             | MacOS               |
+| 2015 Macbook Pro | 3000ms           | 3.849s           | 436s (7m 16s)       | 320ms               |                             | MacOS               |
 | 2020 Lemur Pro   | 4000ms           | 8.052s           | 657s (10m 57s)      | 938ms               | System76, i5 10210U 4c 40GB | Ubuntu Server 21.04 |
 | 2019 Macbook Pro | 2000ms           | 3.786s           | 230s (3m 50s)       | 413ms               | 2.6GHz 6c i7                | MacOS               |
-| M1 Pro           | 1000ms           | 2.071s           | 140s (2m 20s)       | 207ms               | 8c 32GB                     | MacOS               |
-| M2 Air  xxxxxxx  |                  |                  |                     |                     |                             | MacOS               |
+| M1 Pro           | 1000ms           | 2.071s           | 140s (2m 20s)       | 207ms               | M1 Pro 8c 32GB              | MacOS               |
+| M2 Air           | 1000ms           | 1.687s           | 205s (3m 25s)       | 180ms               | M2 16GB                     | MacOS               |
 | M2 Pro  xxxxxxx  |                  |                  |                     |                     |                             | MacOS               |
-| M3 Pro           | 650ms            | 1.490s           | 79s (1m 19s)        | 20.5ms              | 12c 36GB                    | MacOS               |
-| M3 Max           | 620ms            | 1.429s           | 66s (1m 6s)         | 20.4ms              | 16c 48GB                    | MacOS               |
+| M3 Pro           | 650ms            | 1.490s           | 79s (1m 19s)        | 20.5ms              | M3 Pro 12c 36GB             | MacOS               |
+| M3 Max           | 620ms            | 1.429s           | 66s (1m 6s)         | 20.4ms              | M3 Max 16c 48GB             | MacOS               |
