@@ -30,3 +30,4 @@ The compileJava is the total time and the bootRun is the startup time, e.g:
 | M3 Max           | 620ms            | 1.429s           | 66s (1m 6s)         | 20.4ms              | M3 Max 16c 48GB             | MacOS               |
 | M4 Pro           | 607ms            | 1.281s           | 81s (1m 41s)        | 17.2ms              | M4 Pro 14c 48GB (10p,4e)    | MacOS               |
 | ITX Computer     | 1000ms           | 2.410s           | 186s (2m 46s)       | 17.2ms              | Ryzen 5700g 8c 16t 32GB     | Pop!\_OS 22.04 LTS  |
+| Dell 5560        | 1460ms           | 3.465s           | 217s (3m 37s)       | 27.7ms              | Intel i7 32GB               | Windows 11 Pro      |
